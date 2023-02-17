@@ -1,0 +1,73 @@
+.login-background {
+  width: 100%;
+  height: 100%;
+  background: rgb(9, 36, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 36, 121, 1) 0%,
+    rgba(4, 80, 122, 1) 41%,
+    rgba(38, 98, 130, 1) 76%,
+    rgba(4, 133, 203, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-container > h2 {
+  margin-bottom: 20px;
+}
+
+.login-container .login-form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-container .login-form-container > input {
+  height: 40px;
+  width: 250px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(240, 248, 255, 0.6);
+  padding-left: 20px;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.login-container .login-form-container > span {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: rgb(57, 57, 78);
+}
+
+.login-container .login-form-container > button {
+  height: 40px;
+  width: 250px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+  background: rgb(9, 36, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 80, 122, 1) 41%,
+    rgba(38, 98, 130, 1) 76%
+  );
+  color: #fff;
+  cursor: pointer;
+}
